@@ -51,9 +51,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for authoring conventions and the skill t
 
 ## Scope and safety
 
-These skills assume authorized use of VT systems by someone with a valid account and
-allocation. They constrain an agent toward read-only inspection by default and require
-explicit human approval before state-changing actions. They do not grant access, bypass
-policy, or substitute for the
-[ARC acceptable-use policy](https://docs.arc.vt.edu/usage/01-acceptable-use-policy.html)
-and other VT terms.
+These skills assume authorized use by someone with valid VT credentials. They do not
+grant access or override policy. Each skill defaults to read-only inspection and asks
+for human approval before state-changing actions; see its `SKILL.md` for specifics and
+the relevant VT terms.

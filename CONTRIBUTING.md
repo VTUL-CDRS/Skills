@@ -20,10 +20,10 @@
 
 - **Least privilege.** Default to read-only inspection. Require explicit human approval
   before any action that submits, cancels, deletes, or otherwise changes state.
-- **Cite VT and upstream docs.** Link claims about policy, scheduling, or storage to
-  [docs.arc.vt.edu](https://docs.arc.vt.edu) or the relevant upstream (Slurm, etc.).
-- **Respect withheld information.** Do not have the agent infer cluster-wide state from
-  partial views, or promise queue times the scheduler does not guarantee.
+- **Cite authoritative docs.** Link claims about policy or system behavior to the
+  relevant VT documentation and any upstream source (Slurm, a vendor, etc.).
+- **Respect withheld information.** Do not have the agent infer system-wide state from
+  partial views, or promise outcomes a service does not guarantee.
 - **Keep credentials out** of commands, scripts, logs, and scheduler exports.
 - **Be concise.** A skill is instructions, not a tutorial. Trim anything the agent does
   not need to act correctly.
